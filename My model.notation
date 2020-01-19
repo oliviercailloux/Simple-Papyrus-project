@@ -1,2 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI"/>
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:style="http://www.eclipse.org/papyrus/infra/gmfdiag/style" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_cLuTADrJEeq3LOVxXtkXcw" type="PapyrusUMLSequenceDiagram" name="seq" measurementUnit="Pixel">
+  <children xmi:type="notation:Shape" xmi:id="_cLuTATrJEeq3LOVxXtkXcw" type="Interaction_Shape">
+    <children xmi:type="notation:DecorationNode" xmi:id="_cLuTAjrJEeq3LOVxXtkXcw" type="Interaction_NameLabel"/>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_cLuTAzrJEeq3LOVxXtkXcw" type="Interaction_SubfragmentCompartment">
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_cLuTBDrJEeq3LOVxXtkXcw"/>
+    </children>
+    <element xmi:type="uml:Interaction" href="My%20model.uml#_XdH14DrJEeq3LOVxXtkXcw"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_cLuTBTrJEeq3LOVxXtkXcw"/>
+  </children>
+  <styles xmi:type="notation:StringValueStyle" xmi:id="_cLuTBjrJEeq3LOVxXtkXcw" name="diagram_compatibility_version" stringValue="1.4.0"/>
+  <styles xmi:type="notation:DiagramStyle" xmi:id="_cLuTBzrJEeq3LOVxXtkXcw"/>
+  <styles xmi:type="style:PapyrusDiagramStyle" xmi:id="_cLuTCDrJEeq3LOVxXtkXcw" diagramKindId="org.eclipse.papyrus.uml.diagram.sequence">
+    <owner xmi:type="uml:Interaction" href="My%20model.uml#_XdH14DrJEeq3LOVxXtkXcw"/>
+  </styles>
+  <element xmi:type="uml:Interaction" href="My%20model.uml#_XdH14DrJEeq3LOVxXtkXcw"/>
+</notation:Diagram>
