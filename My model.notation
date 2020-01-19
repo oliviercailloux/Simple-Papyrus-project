@@ -3,6 +3,16 @@
   <children xmi:type="notation:Shape" xmi:id="_cLuTATrJEeq3LOVxXtkXcw" type="Interaction_Shape">
     <children xmi:type="notation:DecorationNode" xmi:id="_cLuTAjrJEeq3LOVxXtkXcw" type="Interaction_NameLabel"/>
     <children xmi:type="notation:BasicCompartment" xmi:id="_cLuTAzrJEeq3LOVxXtkXcw" type="Interaction_SubfragmentCompartment">
+      <children xmi:type="notation:Shape" xmi:id="_sFuQkDrUEeq3LOVxXtkXcw" type="Lifeline_Shape">
+        <children xmi:type="notation:DecorationNode" xmi:id="_sFu3oDrUEeq3LOVxXtkXcw" type="Lifeline_NameLabel"/>
+        <element xmi:type="uml:Lifeline" href="My%20model.uml#_kxTowDrJEeq3LOVxXtkXcw"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sFuQkTrUEeq3LOVxXtkXcw" x="139" y="10"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_tA4RQDrUEeq3LOVxXtkXcw" type="Lifeline_Shape">
+        <children xmi:type="notation:DecorationNode" xmi:id="_tA44UDrUEeq3LOVxXtkXcw" type="Lifeline_NameLabel"/>
+        <element xmi:type="uml:Lifeline" href="My%20model.uml#_Pj-S4DrKEeq3LOVxXtkXcw"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_tA4RQTrUEeq3LOVxXtkXcw" x="351" y="10"/>
+      </children>
       <layoutConstraint xmi:type="notation:Bounds" xmi:id="_cLuTBDrJEeq3LOVxXtkXcw"/>
     </children>
     <element xmi:type="uml:Interaction" href="My%20model.uml#_XdH14DrJEeq3LOVxXtkXcw"/>
