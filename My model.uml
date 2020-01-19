@@ -12,9 +12,5 @@
     <ownedAttribute xmi:type="uml:Property" xmi:id="_BhQmEDrKEeq3LOVxXtkXcw" name="john" type="_VbMJYDkTEeqXU49C2Eo7Fw"/>
     <lifeline xmi:type="uml:Lifeline" xmi:id="_kxTowDrJEeq3LOVxXtkXcw" name="User lifeline" represents="_8jdPUDrJEeq3LOVxXtkXcw"/>
     <lifeline xmi:type="uml:Lifeline" xmi:id="_Pj-S4DrKEeq3LOVxXtkXcw" name="Person lifeline" represents="_BhQmEDrKEeq3LOVxXtkXcw"/>
-    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_MEvSQDrSEeq3LOVxXtkXcw" name="user sends sayHello"/>
-    <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_meBTIDrSEeq3LOVxXtkXcw" name="sayHello execution" finish="_YFWkcDrSEeq3LOVxXtkXcw" start="_MEvSQDrSEeq3LOVxXtkXcw"/>
-    <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_YFWkcDrSEeq3LOVxXtkXcw" name="end sayHello"/>
-    <message xmi:type="uml:Message" xmi:id="_R5sTcDrSEeq3LOVxXtkXcw" name="user to john sayHello" signature="_bF-FcDkUEeqXU49C2Eo7Fw"/>
   </packagedElement>
 </uml:Model>
