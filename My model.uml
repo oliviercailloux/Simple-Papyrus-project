@@ -10,7 +10,14 @@
   <packagedElement xmi:type="uml:Interaction" xmi:id="_XdH14DrJEeq3LOVxXtkXcw" name="User to responsible">
     <ownedAttribute xmi:type="uml:Property" xmi:id="_8jdPUDrJEeq3LOVxXtkXcw" name="user" type="_Xaa2MDkTEeqXU49C2Eo7Fw"/>
     <ownedAttribute xmi:type="uml:Property" xmi:id="_BhQmEDrKEeq3LOVxXtkXcw" name="john" type="_VbMJYDkTEeqXU49C2Eo7Fw"/>
-    <lifeline xmi:type="uml:Lifeline" xmi:id="_kxTowDrJEeq3LOVxXtkXcw" name="User lifeline" represents="_8jdPUDrJEeq3LOVxXtkXcw"/>
-    <lifeline xmi:type="uml:Lifeline" xmi:id="_Pj-S4DrKEeq3LOVxXtkXcw" name="Person lifeline" represents="_BhQmEDrKEeq3LOVxXtkXcw"/>
+    <lifeline xmi:type="uml:Lifeline" xmi:id="_kxTowDrJEeq3LOVxXtkXcw" name="User lifeline" represents="_8jdPUDrJEeq3LOVxXtkXcw" coveredBy="_wzlG0DrUEeq3LOVxXtkXcw _w0JukDrUEeq3LOVxXtkXcw"/>
+    <lifeline xmi:type="uml:Lifeline" xmi:id="_Pj-S4DrKEeq3LOVxXtkXcw" name="Person lifeline" represents="_BhQmEDrKEeq3LOVxXtkXcw" coveredBy="_wzlt4DrUEeq3LOVxXtkXcw _w0JHgDrUEeq3LOVxXtkXcw _w0Dn8DrUEeq3LOVxXtkXcw"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_wzlG0DrUEeq3LOVxXtkXcw" name="sayHello send" covered="_kxTowDrJEeq3LOVxXtkXcw" message="_wzj4sDrUEeq3LOVxXtkXcw"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_wzlt4DrUEeq3LOVxXtkXcw" name="sayHello receive" covered="_Pj-S4DrKEeq3LOVxXtkXcw" message="_wzj4sDrUEeq3LOVxXtkXcw"/>
+    <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_w0Dn8DrUEeq3LOVxXtkXcw" name="sayHello execution" covered="_Pj-S4DrKEeq3LOVxXtkXcw" finish="_w0JHgDrUEeq3LOVxXtkXcw" start="_wzlt4DrUEeq3LOVxXtkXcw"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_w0JHgDrUEeq3LOVxXtkXcw" name="return from sayHello send" covered="_Pj-S4DrKEeq3LOVxXtkXcw" message="_w0IgcDrUEeq3LOVxXtkXcw"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_w0JukDrUEeq3LOVxXtkXcw" name="return from sayHello receive" covered="_kxTowDrJEeq3LOVxXtkXcw" message="_w0IgcDrUEeq3LOVxXtkXcw"/>
+    <message xmi:type="uml:Message" xmi:id="_wzj4sDrUEeq3LOVxXtkXcw" name="sayHello message" receiveEvent="_wzlt4DrUEeq3LOVxXtkXcw" sendEvent="_wzlG0DrUEeq3LOVxXtkXcw" signature="_bF-FcDkUEeqXU49C2Eo7Fw"/>
+    <message xmi:type="uml:Message" xmi:id="_w0IgcDrUEeq3LOVxXtkXcw" name="return from sayHello" messageSort="reply" receiveEvent="_w0JukDrUEeq3LOVxXtkXcw" sendEvent="_w0JHgDrUEeq3LOVxXtkXcw"/>
   </packagedElement>
 </uml:Model>

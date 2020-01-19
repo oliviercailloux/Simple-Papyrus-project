@@ -10,6 +10,13 @@
       </children>
       <children xmi:type="notation:Shape" xmi:id="_tA4RQDrUEeq3LOVxXtkXcw" type="Lifeline_Shape">
         <children xmi:type="notation:DecorationNode" xmi:id="_tA44UDrUEeq3LOVxXtkXcw" type="Lifeline_NameLabel"/>
+        <children xmi:type="notation:Shape" xmi:id="_w0FdIDrUEeq3LOVxXtkXcw" type="BehaviorExecutionSpecification_Shape">
+          <children xmi:type="notation:DecorationNode" xmi:id="_w0GEMDrUEeq3LOVxXtkXcw" type="BehaviorExecutionSpecification_Behavior">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_w0GEMTrUEeq3LOVxXtkXcw" x="18" y="18"/>
+          </children>
+          <element xmi:type="uml:BehaviorExecutionSpecification" href="My%20model.uml#_w0Dn8DrUEeq3LOVxXtkXcw"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_w0FdITrUEeq3LOVxXtkXcw" x="40" y="66" width="20" height="100"/>
+        </children>
         <element xmi:type="uml:Lifeline" href="My%20model.uml#_Pj-S4DrKEeq3LOVxXtkXcw"/>
         <layoutConstraint xmi:type="notation:Bounds" xmi:id="_tA4RQTrUEeq3LOVxXtkXcw" x="351" y="10"/>
       </children>
@@ -24,4 +31,30 @@
     <owner xmi:type="uml:Interaction" href="My%20model.uml#_XdH14DrJEeq3LOVxXtkXcw"/>
   </styles>
   <element xmi:type="uml:Interaction" href="My%20model.uml#_XdH14DrJEeq3LOVxXtkXcw"/>
+  <edges xmi:type="notation:Connector" xmi:id="_wzrNcDrUEeq3LOVxXtkXcw" type="Message_SynchEdge" source="_sFuQkDrUEeq3LOVxXtkXcw" target="_tA4RQDrUEeq3LOVxXtkXcw">
+    <children xmi:type="notation:DecorationNode" xmi:id="_wzrNczrUEeq3LOVxXtkXcw" type="Message_SynchNameLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_wzr0gDrUEeq3LOVxXtkXcw" x="1" y="-13"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_wzr0gTrUEeq3LOVxXtkXcw" type="Message_SynchStereotypeLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_wzr0gjrUEeq3LOVxXtkXcw" x="1" y="-33"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_wzrNcTrUEeq3LOVxXtkXcw"/>
+    <element xmi:type="uml:Message" href="My%20model.uml#_wzj4sDrUEeq3LOVxXtkXcw"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_wzrNcjrUEeq3LOVxXtkXcw" points="[0, 0, -212, 0]$[212, 0, 0, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_wz528DrUEeq3LOVxXtkXcw" id="(0.5,0.09428571428571429)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_wz6eADrUEeq3LOVxXtkXcw" id="(0.5,0.09428571428571429)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_w0KVoDrUEeq3LOVxXtkXcw" type="Message_ReplyEdge" source="_tA4RQDrUEeq3LOVxXtkXcw" target="_sFuQkDrUEeq3LOVxXtkXcw">
+    <children xmi:type="notation:DecorationNode" xmi:id="_w0KVozrUEeq3LOVxXtkXcw" visible="false" type="Message_ReplyNameLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_w0KVpDrUEeq3LOVxXtkXcw" x="1" y="-13"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_w0KVpTrUEeq3LOVxXtkXcw" visible="false" type="Message_ReplyStereotypeLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_w0KVpjrUEeq3LOVxXtkXcw" x="1" y="-33"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_w0KVoTrUEeq3LOVxXtkXcw"/>
+    <element xmi:type="uml:Message" href="My%20model.uml#_w0IgcDrUEeq3LOVxXtkXcw"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_w0KVojrUEeq3LOVxXtkXcw" points="[0, 0, 212, 0]$[-212, 0, 0, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_w0LjwDrUEeq3LOVxXtkXcw" id="(0.5,0.23714285714285716)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_w0LjwTrUEeq3LOVxXtkXcw" id="(0.5,0.23714285714285716)"/>
+  </edges>
 </notation:Diagram>
