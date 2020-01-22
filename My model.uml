@@ -7,7 +7,7 @@
     <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
   </packageImport>
   <packagedElement xmi:type="uml:Class" xmi:id="_VbMJYDkTEeqXU49C2Eo7Fw" name="Person">
-    <ownedAttribute xmi:type="uml:Property" xmi:id="_ugkxUD1kEeq2cf4Fm6AqBw" name="name">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_ugkxUD1kEeq2cf4Fm6AqBw" name="fullName">
       <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
     </ownedAttribute>
     <ownedOperation xmi:type="uml:Operation" xmi:id="_bF-FcDkUEeqXU49C2Eo7Fw" name="sayHello"/>
@@ -34,5 +34,10 @@
       <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_q1CBkD1BEeq1WeAY_X4sxg"/>
       <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_q1CooD1BEeq1WeAY_X4sxg" value="1"/>
     </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:InstanceSpecification" xmi:id="_ZgZRMD1mEeq7UNXzht_FLg" name="myriam" classifier="_VbMJYDkTEeqXU49C2Eo7Fw">
+    <slot xmi:type="uml:Slot" xmi:id="_gb_KUD1mEeq7UNXzht_FLg" definingFeature="_ugkxUD1kEeq2cf4Fm6AqBw">
+      <value xmi:type="uml:LiteralString" xmi:id="_kryLkD1mEeq7UNXzht_FLg" value="Myriam Delgas"/>
+    </slot>
   </packagedElement>
 </uml:Model>
