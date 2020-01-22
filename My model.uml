@@ -5,7 +5,7 @@
   </packagedElement>
   <packagedElement xmi:type="uml:Class" xmi:id="_Xaa2MDkTEeqXU49C2Eo7Fw" name="User">
     <generalization xmi:type="uml:Generalization" xmi:id="_Y6wLEDkUEeqXU49C2Eo7Fw" general="_VbMJYDkTEeqXU49C2Eo7Fw"/>
-    <ownedAttribute xmi:type="uml:Property" xmi:id="_ssce8Dn7EeqA1OtUEp_vrg" name="responsible" type="_VbMJYDkTEeqXU49C2Eo7Fw"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_ssce8Dn7EeqA1OtUEp_vrg" name="responsible" type="_VbMJYDkTEeqXU49C2Eo7Fw" association="_q043oD1BEeq1WeAY_X4sxg"/>
   </packagedElement>
   <packagedElement xmi:type="uml:Interaction" xmi:id="_XdH14DrJEeq3LOVxXtkXcw" name="User to responsible">
     <ownedAttribute xmi:type="uml:Property" xmi:id="_8jdPUDrJEeq3LOVxXtkXcw" name="user" type="_Xaa2MDkTEeqXU49C2Eo7Fw"/>
@@ -19,5 +19,11 @@
     <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_w0JukDrUEeq3LOVxXtkXcw" name="return from sayHello receive" covered="_kxTowDrJEeq3LOVxXtkXcw" message="_w0IgcDrUEeq3LOVxXtkXcw"/>
     <message xmi:type="uml:Message" xmi:id="_wzj4sDrUEeq3LOVxXtkXcw" name="sayHello message" receiveEvent="_wzlt4DrUEeq3LOVxXtkXcw" sendEvent="_wzlG0DrUEeq3LOVxXtkXcw" signature="_bF-FcDkUEeqXU49C2Eo7Fw"/>
     <message xmi:type="uml:Message" xmi:id="_w0IgcDrUEeq3LOVxXtkXcw" name="return from sayHello" messageSort="reply" receiveEvent="_w0JukDrUEeq3LOVxXtkXcw" sendEvent="_w0JHgDrUEeq3LOVxXtkXcw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_q043oD1BEeq1WeAY_X4sxg" name="Association user to responsible" memberEnd="_ssce8Dn7EeqA1OtUEp_vrg _q1BagD1BEeq1WeAY_X4sxg">
+    <ownedEnd xmi:type="uml:Property" xmi:id="_q1BagD1BEeq1WeAY_X4sxg" name="user" type="_Xaa2MDkTEeqXU49C2Eo7Fw" association="_q043oD1BEeq1WeAY_X4sxg">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_q1CBkD1BEeq1WeAY_X4sxg"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_q1CooD1BEeq1WeAY_X4sxg" value="1"/>
+    </ownedEnd>
   </packagedElement>
 </uml:Model>
