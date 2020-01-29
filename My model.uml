@@ -40,4 +40,8 @@
       <value xmi:type="uml:LiteralString" xmi:id="_kryLkD1mEeq7UNXzht_FLg" value="Myriam Delgas"/>
     </slot>
   </packagedElement>
+  <packagedElement xmi:type="uml:Interaction" xmi:id="_J73jAEKuEeqZj6Jl6Oqo-A" name="System" useCase="_MFBA0EKuEeqZj6Jl6Oqo-A">
+    <ownedUseCase xmi:type="uml:UseCase" xmi:id="_MFBA0EKuEeqZj6Jl6Oqo-A" name="Say hello" visibility="public" subject="_J73jAEKuEeqZj6Jl6Oqo-A"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_VPNfgEKuEeqZj6Jl6Oqo-A" name="User"/>
 </uml:Model>
