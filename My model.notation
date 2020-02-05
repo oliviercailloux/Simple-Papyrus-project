@@ -47,7 +47,7 @@
   </styles>
   <element xmi:type="uml:Model" href="My%20model.uml#_VqtI4DkPEeqXU49C2Eo7Fw"/>
   <edges xmi:type="notation:Connector" xmi:id="_5Tjh8EgIEeqfTJvLcznZRQ" type="Association_Edge" source="_4afzAEgIEeqfTJvLcznZRQ" target="_3lnZcEgIEeqfTJvLcznZRQ">
-    <children xmi:type="notation:DecorationNode" xmi:id="_5TkwEEgIEeqfTJvLcznZRQ" type="Association_NameLabel">
+    <children xmi:type="notation:DecorationNode" xmi:id="_5TkwEEgIEeqfTJvLcznZRQ" visible="false" type="Association_NameLabel">
       <layoutConstraint xmi:type="notation:Location" xmi:id="_5TkwEUgIEeqfTJvLcznZRQ" y="40"/>
     </children>
     <children xmi:type="notation:DecorationNode" xmi:id="_5TkwEkgIEeqfTJvLcznZRQ" type="Association_StereotypeLabel">
