@@ -1,2 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI"/>
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:style="http://www.eclipse.org/papyrus/infra/gmfdiag/style" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_xlNaYEgBEeqZj6Jl6Oqo-A" type="UseCase" name="User demands to say hello" measurementUnit="Pixel">
+  <children xmi:type="notation:Shape" xmi:id="_2E-KQEgBEeqZj6Jl6Oqo-A" type="Classifier_SubjectShape">
+    <children xmi:type="notation:DecorationNode" xmi:id="_2E-xUEgBEeqZj6Jl6Oqo-A" type="Classifier_NameLabel"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_2E-xUUgBEeqZj6Jl6Oqo-A" type="Classifier_FloatingNameLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_2E-xUkgBEeqZj6Jl6Oqo-A" y="15"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_2E-xU0gBEeqZj6Jl6Oqo-A" type="Classifier_UseCaseCompartment">
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_2E-xVEgBEeqZj6Jl6Oqo-A"/>
+    </children>
+    <element xmi:type="uml:Interaction" href="My%20model.uml#_FZcPUEgBEeqZj6Jl6Oqo-A"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_2E-KQUgBEeqZj6Jl6Oqo-A" x="360" y="120"/>
+  </children>
+  <styles xmi:type="notation:StringValueStyle" xmi:id="_xlNaYUgBEeqZj6Jl6Oqo-A" name="diagram_compatibility_version" stringValue="1.4.0"/>
+  <styles xmi:type="notation:DiagramStyle" xmi:id="_xlNaYkgBEeqZj6Jl6Oqo-A"/>
+  <styles xmi:type="style:PapyrusDiagramStyle" xmi:id="_xlNaY0gBEeqZj6Jl6Oqo-A" diagramKindId="org.eclipse.papyrus.uml.diagram.useCase">
+    <owner xmi:type="uml:Model" href="My%20model.uml#_VqtI4DkPEeqXU49C2Eo7Fw"/>
+  </styles>
+  <element xmi:type="uml:Model" href="My%20model.uml#_VqtI4DkPEeqXU49C2Eo7Fw"/>
+</notation:Diagram>
