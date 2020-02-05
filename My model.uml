@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_VqtI4DkPEeqXU49C2Eo7Fw" name="Root">
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_VqtI4DkPEeqXU49C2Eo7Fw" name="Root">
   <packagedElement xmi:type="uml:Interaction" xmi:id="_FZcPUEgBEeqZj6Jl6Oqo-A" name="System" useCase="_Ip9k4EgBEeqZj6Jl6Oqo-A">
     <ownedUseCase xmi:type="uml:UseCase" xmi:id="_Ip9k4EgBEeqZj6Jl6Oqo-A" name="Say hello" subject="_FZcPUEgBEeqZj6Jl6Oqo-A"/>
   </packagedElement>
   <packagedElement xmi:type="uml:Actor" xmi:id="_UMel0EgBEeqZj6Jl6Oqo-A" name="User"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_5THdEEgIEeqfTJvLcznZRQ" name="User triggers say hello" memberEnd="_5TYi0EgIEeqfTJvLcznZRQ _5TaYAEgIEeqfTJvLcznZRQ">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_5TR1IEgIEeqfTJvLcznZRQ" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_5TR1IUgIEeqfTJvLcznZRQ" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_5TYi0EgIEeqfTJvLcznZRQ" name="say hello" type="_Ip9k4EgBEeqZj6Jl6Oqo-A" association="_5THdEEgIEeqfTJvLcznZRQ"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_5TaYAEgIEeqfTJvLcznZRQ" name="user" type="_UMel0EgBEeqZj6Jl6Oqo-A" association="_5THdEEgIEeqfTJvLcznZRQ"/>
+  </packagedElement>
 </uml:Model>
