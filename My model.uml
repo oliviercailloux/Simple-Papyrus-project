@@ -1,2 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_VqtI4DkPEeqXU49C2Eo7Fw" name="Root"/>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_VqtI4DkPEeqXU49C2Eo7Fw" name="Root">
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_QRsZ8Gh8EeqbwoxW_7fr1Q">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:Class" xmi:id="_C_HegGhZEeqbwoxW_7fr1Q" name="FastComputer">
+    <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_0p-dkGhbEeqbwoxW_7fr1Q" name="is a computer" client="_C_HegGhZEeqbwoxW_7fr1Q" supplier="_FNzjoGhZEeqbwoxW_7fr1Q" contract="_FNzjoGhZEeqbwoxW_7fr1Q"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Interface" xmi:id="_FNzjoGhZEeqbwoxW_7fr1Q" name="Computer">
+    <ownedComment xmi:type="uml:Comment" xmi:id="_W8KpgGheEeqbwoxW_7fr1Q" annotatedElement="_FNzjoGhZEeqbwoxW_7fr1Q">
+      <body>No behavior</body>
+    </ownedComment>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_QD-b8GhZEeqbwoxW_7fr1Q" name="isPrime">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_gf2DkGh8EeqbwoxW_7fr1Q" name="ret" visibility="public" direction="return" effect="create">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+      </ownedParameter>
+    </ownedOperation>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_42K7wGhcEeqbwoxW_7fr1Q" name="EcologicalComputer">
+    <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_42K7wWhcEeqbwoxW_7fr1Q" name="is a computer" client="_42K7wGhcEeqbwoxW_7fr1Q" supplier="_FNzjoGhZEeqbwoxW_7fr1Q" contract="_FNzjoGhZEeqbwoxW_7fr1Q"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_Qin_oGiBEeqbwoxW_7fr1Q" name="CryptographyService">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_bGqmIGiBEeqbwoxW_7fr1Q" name="computer" type="_FNzjoGhZEeqbwoxW_7fr1Q" association="_bGlGkGiBEeqbwoxW_7fr1Q">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_bGsbUGiBEeqbwoxW_7fr1Q"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_bGuQgGiBEeqbwoxW_7fr1Q" value="1"/>
+    </ownedAttribute>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_TSW8UGiBEeqbwoxW_7fr1Q" name="encrypt"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_bGlGkGiBEeqbwoxW_7fr1Q" name="Crypto uses Computer" memberEnd="_bGqmIGiBEeqbwoxW_7fr1Q _bGveoGiBEeqbwoxW_7fr1Q">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_bGpYAGiBEeqbwoxW_7fr1Q" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_bGpYAWiBEeqbwoxW_7fr1Q" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_bGveoGiBEeqbwoxW_7fr1Q" name="cryptographyservice" type="_Qin_oGiBEeqbwoxW_7fr1Q" association="_bGlGkGiBEeqbwoxW_7fr1Q"/>
+  </packagedElement>
+  <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_bRDqgGh8EeqbwoxW_7fr1Q">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_bRDqgWh8EeqbwoxW_7fr1Q" source="http://www.eclipse.org/uml2/2.0.0/UML">
+      <references xmi:type="ecore:EPackage" href="pathmap://PAPYRUS_ACTIONLANGUAGE_PROFILE/ActionLanguage-Profile.profile.uml#_Kv8EIKFXEeS_KNX0nfvIVQ"/>
+    </eAnnotations>
+    <appliedProfile xmi:type="uml:Profile" href="pathmap://PAPYRUS_ACTIONLANGUAGE_PROFILE/ActionLanguage-Profile.profile.uml#ActionLanguage"/>
+  </profileApplication>
+</uml:Model>
