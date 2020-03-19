@@ -9,6 +9,7 @@
         <ownedParameteredElement xmi:type="uml:Class" xmi:id="_rGX0gGnIEeqNmolzGI8qeQ" name="E" templateParameter="_0ANYcGnHEeqNmolzGI8qeQ"/>
       </ownedParameter>
     </ownedTemplateSignature>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_6S2wUGnJEeqNmolzGI8qeQ" name="engine" type="_rGX0gGnIEeqNmolzGI8qeQ"/>
   </packagedElement>
   <packagedElement xmi:type="uml:Class" xmi:id="_3ehc8GnIEeqNmolzGI8qeQ" name="Car with String engine">
     <templateBinding xmi:type="uml:TemplateBinding" xmi:id="_7BUOQGnIEeqNmolzGI8qeQ" signature="_wHgokGnHEeqNmolzGI8qeQ">
