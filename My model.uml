@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_VqtI4DkPEeqXU49C2Eo7Fw" name="Root">
-  <packagedElement xmi:type="uml:Class" xmi:id="_0w-HAGnHEeqNmolzGI8qeQ" name="E" templateParameter="_0ANYcGnHEeqNmolzGI8qeQ"/>
   <packagedElement xmi:type="uml:Class" xmi:id="_gNVq4GnHEeqNmolzGI8qeQ" name="Generic Car">
     <ownedTemplateSignature xmi:type="uml:RedefinableTemplateSignature" xmi:id="_wHgokGnHEeqNmolzGI8qeQ" name="Template signature" parameter="_0ANYcGnHEeqNmolzGI8qeQ">
-      <ownedParameter xmi:type="uml:ClassifierTemplateParameter" xmi:id="_0ANYcGnHEeqNmolzGI8qeQ" parameteredElement="_0w-HAGnHEeqNmolzGI8qeQ"/>
+      <ownedParameter xmi:type="uml:ClassifierTemplateParameter" xmi:id="_0ANYcGnHEeqNmolzGI8qeQ" parameteredElement="_rGX0gGnIEeqNmolzGI8qeQ">
+        <ownedParameteredElement xmi:type="uml:Class" xmi:id="_rGX0gGnIEeqNmolzGI8qeQ" name="E" templateParameter="_0ANYcGnHEeqNmolzGI8qeQ"/>
+      </ownedParameter>
     </ownedTemplateSignature>
   </packagedElement>
 </uml:Model>
